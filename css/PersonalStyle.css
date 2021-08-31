@@ -1,0 +1,107 @@
+
+#personal-tiles{
+  text-align: center;
+  align-items: center;
+  font-size: 1.5vw;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: #fdd;
+  max-width: 98%;
+  margin-left: 1%;
+  opacity: 0.9;
+  border: 0.4vw solid #500;
+  border-radius: 20px;
+}
+
+.PersonalTitle{
+	 text-align: center;
+  align-items: center;
+  font-size: 1.5vw;
+  margin-top: -25px;
+  margin-bottom: 5vw;
+}
+
+.translusent{
+	
+  background: #fdd;
+  border-radius: 10px;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-top: 30px;
+}
+
+.detail-name{
+	text-align: left;
+	line-height: 5vw;
+	font-weight: bold;
+	color: #800;
+	text-decoration: underline;
+	font-size: 2vw;
+}
+
+.detail-answer{
+	text-align: left;
+	line-height: 5vw;
+	font-style: italic;
+	color: #500;
+	font-weight: 600;
+	font-size: 1.7vw;
+}
+
+.detail-all{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 4vw;
+	color: #800;
+	font-weight: 700;
+	
+}
+
+.linkedin
+{
+  font-size: 0.8em;
+}
+
+.detail-all > div:nth-child(2n){
+  margin-bottom: 3vw;
+  color: #500;
+}
+
+.detail-all > div:nth-child(2n+1){
+	text-decoration: underline;
+	text-underline-position: under;
+}
+
+.detail-all > div:nth-child(1){
+  margin-top: 3vw;
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.detail-name{
+		font-size: 3vw;
+		line-height: 7vw;
+	}
+	.detail-answer{
+		font-size: 3vw;
+		line-height: 7vw;
+	}
+	#page-titlePersonal{
+		font-size: 2em;
+	}
+	#personal-tiles{
+  border: 0.5vw solid #500;
+  border-radius: 20px;
+}
+}
+
+@media(max-width: 767px)
+{
+	#page-titlePersonal{
+		font-size: 4em;
+	}
+	#personal-tiles{
+  border: 0.6vw solid #500;
+  border-radius: 20px;
+}
+}

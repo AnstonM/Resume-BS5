@@ -1,0 +1,78 @@
+
+.CustomButton{
+  margin: 20%;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  border: 4px solid #500;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #800; 
+  padding: 10px;
+  max-width: 60%;
+  opacity: 0.9;
+}
+
+.CustomButton span{
+  color: #ffffff;
+}
+
+#home-tiles a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+#home-tiles
+{
+  margin-top: 20px;
+  font-size: 2vw;
+}
+
+@media(min-width: 991px)
+{
+  .CustomButton:hover, .CustomButton:focus{
+    font-size: 1.2em;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+#home-tiles
+{
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2vw;
+  font-size: 4vw;
+}
+.CustomButton{
+  margin: 13%;
+  margin-top: 2vw;
+  border-radius: 20px;
+  max-width: 74%;  
+  margin-bottom: 1vw;
+  }
+}
+
+
+@media(max-width: 767px)
+  {
+#home-tiles
+{
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2vw;
+  font-size: 4vw;
+}
+.CustomButton{
+  margin: 13%;
+  margin-top: 2vw;
+  max-width: 74%;  
+  margin-bottom: 3vw;
+  border-radius: 20px;
+  }
+}
+
+
+

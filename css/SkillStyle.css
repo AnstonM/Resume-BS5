@@ -1,0 +1,272 @@
+#skill-tiles{
+  text-align: center;
+  align-items: center;
+  font-size: 2vw;
+  margin-top: -25px;
+}
+
+
+.skill-list{
+  line-height: 2em;
+}
+
+
+
+@media (min-width: 1200px)/**************LARGE***********/
+{
+  .skill-tile{
+  background-color: #fdd;
+  border: 0.4vw solid #500;
+  border-radius: 20px;
+  opacity: 0.9; 
+  box-sizing: border-box;
+  color: #800; 
+  font-size: 0.9vw; 
+  margin: 5%;
+  margin-top: 4%;
+  margin-bottom: 30px;
+  padding-bottom: 3%;
+  max-width: 90%;
+}  
+  .skill-intile{
+  background-color: #800; 
+  box-sizing: border-box;
+  border: 0.4vw solid #500;
+  color: #fff;
+  border-radius: 20px;  
+  margin: 5%;
+  margin-top: 7%;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  max-width: 40%;
+}
+
+.skill-intitles{
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #500;
+  font-size: 1.6em;
+  margin-bottom: 20px;  
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.skill-titles{
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  font-size: 3em;  
+  max-width: 60%;  
+  border: 0.4vw solid #500;
+  margin-bottom: -40px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #800;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+
+}
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px)/*****************MEDIUM**********/
+{  
+
+.skill-tile{
+  background-color: #fdd;
+  border: 0.4vw solid #500;
+  border-radius: 20px;
+  opacity: 0.9; 
+  box-sizing: border-box;
+  color: #800; 
+  font-size: 1.1vw; 
+  margin: 5%;
+  margin-top: 4%;
+  margin-bottom: 30px;
+  padding-bottom: 3%;
+  max-width: 90%;
+}
+
+  .skill-intile{
+  background-color: #800; 
+  box-sizing: border-box;
+  border: 0.4vw solid #500;
+  color: #fff;
+  border-radius: 20px;  
+  margin: 5%;
+  margin-top: 10%;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  max-width: 40%;
+  font-size: 1.3em;
+}
+
+.skill-titles{
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  font-size: 3em;  
+  max-width: 60%;
+  border: 0.4vw solid #500;
+  margin-bottom: -60px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #800;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.skill-intitles{
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #500;
+  font-size: 1.6em;
+  margin-bottom: 40px;  
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+}
+
+
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+.skill-tile{
+  background-color: #fdd;
+  border: 0.4vw solid #500;
+  border-radius: 20px; 
+  box-sizing: border-box;
+  opacity: 0.9;
+  color: #800; 
+  font-size: 1.2vw; 
+  margin: 5%;
+  margin-top: 4%;
+  margin-bottom: 20px;
+  padding-bottom: 3%;
+  max-width: 90%;
+}
+
+
+
+  .skill-intile{
+  background-color: #800; 
+  box-sizing: border-box;  
+  border: 0.4vw solid #500;
+  color: #fff;
+  border-radius: 20px;  
+  margin: 5%;
+  margin-top: 10%;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  max-width: 40%;
+  font-size: 1.3em;
+}
+
+.skill-titles{
+  text-transform: uppercase;
+  font-weight: 800;
+  border: 0.4vw solid #500;
+  color: #fff;
+  font-size: 3em;  
+  max-width: 60%;
+  margin-bottom: -40px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #800;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.skill-intitles{
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #500;
+  font-size: 1.6em;
+  margin-bottom: 40px;  
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+.skill-tile{
+  opacity: 0.9;
+  box-sizing: border-box;
+  color: #800; 
+  font-size: 1vw; 
+  margin: 5%;
+  margin-top: 80px;
+  margin-bottom: 0px;
+  padding-bottom: 80px;
+  border-bottom: 10px solid #800;
+  max-width: 90%;
+}
+
+.skill-list{
+  font-size: 1.5em;
+}
+
+  .skill-intile{
+  background-color: #800;
+  border: 1vw solid #500; 
+  box-sizing: border-box;
+  color: #fff;
+  border-radius: 20px;  
+  margin: 10%;
+  margin-top: 15%;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  max-width: 80%;
+  font-size: 2.3em;
+}
+
+.skill-titles{
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  font-size: 8em;  
+  max-width: 90%;
+  margin-bottom: -40px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #800;
+  border: 0.8vw solid #500;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.skill-intitles{
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #500;
+  font-size: 2.3em;
+  margin-bottom: 30px;  
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+}
+}
